@@ -44,6 +44,12 @@ p {
         padding: 1rem 2rem 1rem 2rem;
         margin: 1rem;
     }
+
+    #button:hover {
+        cursor: pointer;
+        background-color: springgreen;
+        border: 3px springgreen solid;
+    }
 }
 
 .footer {
@@ -52,5 +58,9 @@ p {
         text-shadow: 1px 1px 2px orangered;
         font-size: 1rem;
         text-decoration: none;
+    }
+
+    .github:hover {
+        color: springgreen;
     }
 }
